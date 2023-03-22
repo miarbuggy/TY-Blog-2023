@@ -21,21 +21,21 @@ html,body {
   width: 100%;
   max-height: 50px;
   border-radius: 3px;
-  padding-right: 1150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .hero-body{
-background-color: #ee939f;
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-font-weight: bold;
-font-size: 34px;
-width: auto;
-height: auto;
-max-width: 100%;
-max-height: 100%;
-border-radius: 3px;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #ee939f;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  font-size: 34px;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .articles {
   margin: 5rem 0;
@@ -136,4 +136,17 @@ div.column.is-8:first-child {
   color: #e9819b;
   max-width: 100%;
   position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-3nd {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
