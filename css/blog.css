@@ -4,23 +4,38 @@ html,body {
   background: #ffffff;
 }
 .navbar.is-white {
-  background: #c0d4e0;
+  background: #e9819b;
+  color: white;
 }
 .navbar-brand .brand-text {
   font-size: 1.11rem;
   font-weight: bold;
+  color: white;
+  width: 100%;
+  border-radius: 15px;
 }
-.hero-body
-{background-image: url(https://media.gq.com/photos/57672ef65db2e8cb18c9e9a8/64:25/w_2943,h_1149,c_limit/homer-simpson-driving.jpg);
+.navbar-menu {
+  box-shadow: 2px 0px #ee939f;
+  background: #e9819b;
+  color: white;
+  width: 100%;
+  max-height: 50px;
+  border-radius: 3px;
+  padding-right: 1150px;
+}
+.hero-body{
+background-color: #ee939f;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 font-weight: bold;
 font-size: 34px;
 width: auto;
-height: 500px;
+height: auto;
 max-width: 100%;
 max-height: 100%;
+border-radius: 3px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .articles {
   margin: 5rem 0;
@@ -66,7 +81,59 @@ div.column.is-8:first-child {
 .article-body {
   line-height: 1.4;
   margin: 0 6rem;
+  border-radius: 15px;
+  padding-bottom: 20px;
 }
 .promo-block .container {
   margin: 1rem 5rem;
+}
+.green-box {
+ font-size: 16px;
+}
+
+.h3ro .is-1nfo {
+  background-color: #ee939f;
+  color: #ffffff;
+}
+
+.is-white {
+  color: #ffffff;
+}
+.navbar-1tem {
+  color: white;
+  align-items: center;
+  display: flex;
+  padding: 5px;
+  font-size: 16;
+}
+
+.active {
+  border-radius: 3px;
+  background-color: #ee939f;
+  color: white;
+  padding: 5px;
+}
+.conta1ner {
+  align-items: stretch;
+  display: flex;
+  min-height: 3.25rem;
+  width: 100%;
+  background-color: #e9819b;
+}
+
+.n4vbar {
+  background-color: #e9819b;
+  min-height: 3.25rem;
+  position: relative;
+  z-index: 30;
+  align-items: stretch;
+  display: flex;
+}
+.c4rd {
+  background-color: #fff;
+  border-radius: .25rem;
+  box-shadow: 0 .5em 1em -.125em #e9819b,0 0 0 1px #e9819b;
+  color: #e9819b;
+  max-width: 100%;
+  position: relative;
 }

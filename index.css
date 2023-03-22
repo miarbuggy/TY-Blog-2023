@@ -24,3 +24,10 @@ html, body {
 .fa-code, .fa-search {
   margin-right: 0.5vw;
 }
+
+#navbarMenu {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
