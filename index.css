@@ -18,16 +18,8 @@ html, body {
 .card-content p {
   margin-bottom: 2rem;
 }
-.container {
-  max-width: 95%;
-}
 .fa-code, .fa-search {
   margin-right: 0.5vw;
 }
 
-#navbarMenu {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+

@@ -103,6 +103,7 @@ div.column.is-8:first-child {
   color: white;
   align-items: center;
   display: flex;
+  justify-content: center;
   padding: 5px;
   font-size: 16;
 }
@@ -114,11 +115,12 @@ div.column.is-8:first-child {
   padding: 5px;
 }
 .conta1ner {
-  align-items: stretch;
+  align-items: center;
   display: flex;
   min-height: 3.25rem;
   width: 100%;
   background-color: #e9819b;
+  color: white;
 }
 
 .n4vbar {
@@ -142,11 +144,4 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.navbar-3nd {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  margin: auto;
 }

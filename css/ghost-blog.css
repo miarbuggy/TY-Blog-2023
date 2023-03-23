@@ -11,12 +11,13 @@ html {
 }
 
 a {
-  color: #3b7adf;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #3b7adf;
+  color: #4e4e4e;
 }
 
 hr {

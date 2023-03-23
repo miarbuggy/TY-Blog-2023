@@ -1,0 +1,25 @@
+section {
+    padding: 8%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1 {
+    padding: 5%;
+    font-size: 120px;
+    text-align: center;
+    font-weight: bold;
+}
+.myHero {
+    background-image: url(https://images.app.goo.gl/LyMffv3mNbnVHrTE9);
+    background-color: #ee939f;
+    color: #ffffff;
+}
+.myHero-body {
+    background-image: url(https://images.app.goo.gl/LyMffv3mNbnVHrTE9);
+    font-weight: bold;
+    font-size: 34px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 3px;
+}
