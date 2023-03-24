@@ -10,6 +10,7 @@ h1 {
 }
 .myHero {
     background-image: url(https://images.app.goo.gl/LyMffv3mNbnVHrTE9);
+    background-repeat: no-repeat;
     background-color: #ee939f;
     color: #ffffff;
 }
